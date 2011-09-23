@@ -1,0 +1,3 @@
+SimplePrime
+CS111A @ CCSF
+SimplePrime is sieve that displays all prime numbers up to a given limit.  This sieve uses the trial division algorithm.  
