@@ -22,16 +22,16 @@ public class SimplePrime
             {
                 if (i % f == 0)
                 {
-                    r0Count++; // Count the number of Remainder Zero Occurences
+                    r0Count++; // Count the number of Remainder Zero Occurrences
                 }
             }    
-            if (r0Count == 1) // If the number of Remainder Zero Occurences is 1, then that integer is prime
+            if (r0Count == 1) // If the number of Remainder Zero Occurrences is 1, then that integer is prime
             {    
                 System.out.print(i + " ");
                 largestPrime = Math.max(i, largestPrime);
                 numPrimes++;
             }
-            r0Count = 0; // Reset Remainder Zero Occurences
+            r0Count = 0; // Reset Remainder Zero Occurrences
         }
         System.out.println(); // Add new line to keep interface clean.
         System.out.printf("There are %d prime numbers\n", numPrimes);
